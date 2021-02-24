@@ -3,11 +3,12 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
+print("Hello World")
+
 class MyFunction(torch.autograd.Function):
 
     @staticmethod
     def forward(ctx, input):
-
         return
 
     @staticmethod
