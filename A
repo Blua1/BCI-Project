@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-print("Hello World")
+print("Hello ")
 
 class MyFunction(torch.autograd.Function):
 
